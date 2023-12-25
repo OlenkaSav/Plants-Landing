@@ -1,0 +1,20 @@
+$colors: (
+  'primary': #2AF598,
+  'secondary-blue': #009EFD,
+  'secondary-light': #F9F9F9,
+//   'text-color': #000000,
+//   'secondary-text-color': #FFFFFF,
+  'primary-text-color': #4F4F4F,
+  'title-text-color': #081323,
+  'light-text-color': #FFFFFF,
+  'gradient': linear-gradient(to right, getColor(primary), getColor(secondary-blue)),
+
+//   'accent-color': #ED8C2B,
+  'background-color': #FFFFFF,
+//   'header-background-color': #262626,
+//   'header-secondary-background-color': #3D3D3D,
+ 
+);
+@function getColor($key) {
+  @return map-get($colors, $key);
+}

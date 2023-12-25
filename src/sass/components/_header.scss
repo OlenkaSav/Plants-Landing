@@ -1,0 +1,33 @@
+.header{
+    position: relative;
+}
+
+.header__container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: getColor(header-background-color);
+    padding-top: 66px;
+    // padding-bottom: 2.5rem;
+}
+.header__main-nav{
+ margin: auto;
+}
+.menu-container__page-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.menu-container__item:not(:last-child){
+    margin-right: 4.25rem;
+
+   
+}
+.menu-container__item:hover .menu-container__link{
+    background: $gradient;
+    -webkit-background-clip: text;  
+    background-clip: text;
+    color: transparent; 
+}

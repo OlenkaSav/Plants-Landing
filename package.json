@@ -1,5 +1,5 @@
 {
-  "name": "PlantsLanding",
+  "name": "plants-landing",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://OlenkaSav.github.io/Plants-Landing",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Olena Savytska <s.olenka1987@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
