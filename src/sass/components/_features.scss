@@ -1,0 +1,18 @@
+.features__container{
+    padding: 6.375rem 7.5rem 8.875rem;
+}
+.features__list{
+    display: flex;
+    justify-content: space-between;
+
+    .features__item{
+        display: flex;
+
+    
+    }
+}
+    .features__icon{
+        //    color: red; 
+       background: $gradient;
+        //    fill: $gradient;
+        }
