@@ -8,11 +8,23 @@
     .features__item{
         display: flex;
 
+        .features__icon{
+            margin-right: 1.5rem;
+        }
     
+        .features__text{
+            
+            h3{
+                font-weight: 600;
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+            p{
+                font-weight: 600;
+                font-size: 1.25rem;
+                color: getColor(grey-text-color);
+            }
+        }
     }
 }
-    .features__icon{
-        //    color: red; 
-       background: $gradient;
-        //    fill: $gradient;
-        }
+   
