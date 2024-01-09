@@ -34,6 +34,7 @@
 .best-seller__list{
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
 
         .best-seller__item{
             position: relative;
@@ -80,15 +81,29 @@
 
                 .best-seller__rating{
                     display: flex;
+                    margin-bottom: 4.75rem;
                 }
                 .best-seller__star{
                     width: 24px;
                     height: 24px;
+                    
                 }
-                // .best-seller__stars{
-                //     // stroke: red;
-                //     background: green;
-                // }
+                .best-seller__buy{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button{
+                        cursor: pointer;
+                        border: none;
+                        background: getColor(background-color);
+                    }
+
+                    h3{
+                        font-weight: 600;
+                        font-size: 2rem;
+                    }
+                }
 
             }
    }
