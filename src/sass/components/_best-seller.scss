@@ -75,8 +75,16 @@
                 .best-seller__name{
                     font-size: 32px;
                     font-weight: 600;
+                    margin-bottom: 7px;
                 }
 
+                .best-seller__rating{
+                    display: flex;
+                }
+                .best-seller__star{
+                    width: 24px;
+                    height: 24px;
+                }
                 // .best-seller__stars{
                 //     // stroke: red;
                 //     background: green;
