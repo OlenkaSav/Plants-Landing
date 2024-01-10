@@ -1,0 +1,14 @@
+.reference{
+     padding-top: 11.375rem;
+     text-align: center;
+
+    .reference__title{
+        font-size: 4rem;
+        font-weight: 500;
+        margin-bottom: 1.6875rem;
+    }
+    .reference__text{
+        font-size: 1.5rem;
+        color: getColor(primary-text-color);
+    }
+}
