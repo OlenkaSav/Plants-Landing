@@ -1,0 +1,65 @@
+.care{
+    padding-top: 11.375rem;
+
+    .care__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .care__content{
+            max-width: 585px;
+            .care__title{
+                max-width: 452px;
+                margin-bottom: 82px;
+
+            h3{
+                font-size: 4rem;
+                font-weight: 500;
+                margin-bottom: 1.75rem;
+            }
+            p{
+                font-size: 1.5rem;
+                color: getColor(primary-text-color);
+                
+            }
+        }
+        .care__list{
+            
+
+            .care__item{
+                display: flex;
+
+                .care__icon{
+                    margin-right: 1.5rem;
+                }
+            
+                .care__text{
+                    
+                    h3{
+                        font-weight: 600;
+                        font-size: 2rem;
+                        margin-bottom: 1rem;
+                    }
+                    p{
+                        font-size: 1.25rem;
+                        color: getColor(grey-text-color);
+                    }
+                }
+            }
+        }
+    }
+        .care__image{
+      
+            max-width: 657px; 
+            width: 100%;
+            // height: 100%;
+            height: 618px;
+            border-radius: 50px;
+            background-image: url('../images/care.jpg');
+            background-size: cover;
+            background-position: center; 
+            background-repeat: no-repeat;
+        }
+    }
+}
