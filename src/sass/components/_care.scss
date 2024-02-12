@@ -29,9 +29,18 @@
 
             .care__item{
                 display: flex;
+                margin-bottom: 2rem;
 
                 .care__icon{
+                    display: flex;
+                    align-items: flex-start;
+                    width: 68px;
+                    height: 68px;
                     margin-right: 1.5rem;
+                    align-items: flex-start;
+                    justify-content: center;
+
+                                       
                 }
             
                 .care__text{
